@@ -9,7 +9,7 @@ import { IconType } from "react-icons";
 
 export default function Sidebar() {
   return (
-    <nav className="flex w-2/12 flex-col bg-white py-8 pl-14 xs:hidden md:flex">
+    <nav className="hidden w-2/12 flex-col bg-white py-8  pl-4 xs:hidden xl:flex 2xl:pl-14">
       LOGO
       <section className=" mt-20 flex flex-1 flex-col space-y-14">
         <IconAndLabel icon={MdDashboard} label="Overview" selected />

@@ -11,7 +11,7 @@ export default function UserPanel() {
   const [selectedLanguage, setSelectedLanguage] = React.useState<string>("EN");
   return (
     <nav
-      className="flex h-2/3 flex-grow flex-col justify-between rounded-b-xl py-8 px-4  shadow-lg xs:hidden md:flex"
+      className="hidden h-2/3 flex-grow flex-col justify-between rounded-b-xl py-8  px-4 shadow-lg lg:flex"
       style={{
         backgroundColor: "#EEF0F6",
       }}
