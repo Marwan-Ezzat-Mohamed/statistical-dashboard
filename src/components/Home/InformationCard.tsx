@@ -34,4 +34,4 @@ const InformationCard = ({ value, title, color }: DataCardProps) => {
   );
 };
 
-export default InformationCard;
+export  {InformationCard};

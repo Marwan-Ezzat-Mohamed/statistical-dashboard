@@ -11,13 +11,13 @@ export default function UserPanel() {
   const [selectedLanguage, setSelectedLanguage] = React.useState<string>("EN");
   return (
     <nav
-      className="hidden h-2/3 flex-grow flex-col justify-between rounded-b-xl py-8  px-4 shadow-lg lg:flex"
+      className="hidden h-2/3 flex-grow flex-col justify-between rounded-b-xl py-10  px-4 shadow-lg lg:flex"
       style={{
         backgroundColor: "#EEF0F6",
       }}
     >
       <section className="flex w-full items-center justify-between">
-        <div className="flex items-center space-x-8">
+        <div className="flex items-center space-x-8 ">
           <DropDown
             selected={selectedLanguage}
             options={["EN", "AR"]}
@@ -25,7 +25,7 @@ export default function UserPanel() {
               setSelectedLanguage(value);
             }}
           />
-          <BsBellFill className="text-xl" />
+          <BsBellFill className="text-2xl" />
         </div>
         <div className="flex items-center space-x-8">
           <RiSettings4Fill className="text-2xl" />

@@ -19,7 +19,7 @@ const Progress = ({ progress, title, subtitle, color }: ProgressProps) => {
   );
 };
 
-export default Progress;
+export { Progress };
 
 const Circle = ({ filled, color }: { filled: boolean; color: string }) => {
   return (

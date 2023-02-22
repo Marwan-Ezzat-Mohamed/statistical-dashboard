@@ -9,7 +9,7 @@ import { IconType } from "react-icons";
 
 export default function Sidebar() {
   return (
-    <nav className="hidden w-2/12 flex-col bg-white py-8  pl-4 xs:hidden xl:flex 2xl:pl-14">
+    <nav className="hidden w-2/12 flex-col bg-white py-10  pl-4 xs:hidden xl:flex 2xl:pl-14">
       LOGO
       <section className=" mt-20 flex flex-1 flex-col space-y-14">
         <IconAndLabel icon={MdDashboard} label="Overview" selected />
@@ -36,8 +36,8 @@ function IconAndLabel(props: {
         props.selected ? "border-r-4 border-indigo-800 text-indigo-800" : ""
       } `}
     >
-      <props.icon size={"30"} />
-      <span className="text-2xl font-medium">{props.label}</span>
+      <props.icon size={"25"} />
+      <span className="text-xl font-medium">{props.label}</span>
       {props.badge && (
         <span className="bg-red-500 ml-10 rounded-full px-2 py-1 text-sm text-white">
           {props.badge}

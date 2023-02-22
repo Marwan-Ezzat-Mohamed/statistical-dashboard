@@ -17,7 +17,7 @@ export default function DropDown<ItemType>({
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex items-center justify-center rounded-md border bg-gray-200 text-xl font-medium text-gray-700">
+        <Menu.Button className="inline-flex items-center justify-center text-2xl font-medium text-gray-700">
           {selected}
           <RiArrowDownSLine />
         </Menu.Button>
@@ -40,7 +40,7 @@ export default function DropDown<ItemType>({
                   <a
                     className={classNames(
                       active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                      "block px-4 py-2 text-xl"
+                      "block px-4 py-2 text-2xl"
                     )}
                     onClick={() => onChange(item)}
                   >

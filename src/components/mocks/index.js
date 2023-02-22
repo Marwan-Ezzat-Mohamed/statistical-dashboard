@@ -242,7 +242,7 @@ export const informationCardMock = [
   { id: 4, value: 2114, title: "Outstanding Invoices" },
 ];
 
-export const progresMock = [
+export const progressMock = [
   {
     id: 1,
     progress: 71,
@@ -263,6 +263,12 @@ export const progresMock = [
   },
   {
     id: 4,
+    progress: 100,
+    title: "1500 New Leads",
+    subtitle: "Total number of generated leads",
+  },
+  {
+    id: 5,
     progress: 100,
     title: "1500 New Leads",
     subtitle: "Total number of generated leads",
