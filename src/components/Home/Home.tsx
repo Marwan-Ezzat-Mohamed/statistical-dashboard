@@ -39,7 +39,7 @@ const Home = () => {
           <label className="flex text-2xl font-bold text-slate-500 md:hidden">
             {tinyDate}
           </label>
-          <HiSearch className="hover:cursor-pointe rounded-xl bg-slate-200 p-2 text-5xl text-violet" />
+          <HiSearch className="rounded-xl bg-slate-200 p-2 text-5xl text-violet hover:cursor-pointer" />
         </div>
       </div>
       <section className="mt-10 flex w-full flex-wrap justify-center gap-4">
