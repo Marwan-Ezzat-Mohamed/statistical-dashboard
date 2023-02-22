@@ -1,3 +1,4 @@
+import { BiDotsVerticalRounded } from "react-icons/bi";
 type DataCardProps = {
   value: number;
   title: string;
@@ -17,7 +18,7 @@ const InformationCard = ({ value, title, color }: DataCardProps) => {
   return (
     <div
       className={
-        "flex flex-col items-center justify-start rounded-3xl  p-5 px-4 shadow-lg " +
+        "relative flex flex-col items-center justify-start  rounded-3xl p-5 px-4 shadow-lg " +
         color
       }
       style={{
@@ -30,8 +31,9 @@ const InformationCard = ({ value, title, color }: DataCardProps) => {
         </span>
         <span className="text-xl text-white">{title}</span>
       </div>
+      <BiDotsVerticalRounded className="absolute right-2 top-2 text-xl text-white" />
     </div>
   );
 };
 
-export  {InformationCard};
+export { InformationCard };
