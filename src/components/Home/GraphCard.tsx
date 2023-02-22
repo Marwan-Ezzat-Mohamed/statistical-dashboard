@@ -14,7 +14,7 @@ const GraphCard = memo(
     return (
       <div className="flex flex-1 flex-col">
         <label className="mb-5 text-xl font-bold text-slate-700">{label}</label>
-        <div className="flex flex-1 flex-col space-y-2 overflow-auto overflow-x-hidden">
+        <div className="flex flex-1 flex-col space-y-2">
           <GraphComponent {...graphData} />
         </div>
       </div>
